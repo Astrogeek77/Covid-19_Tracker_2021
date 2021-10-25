@@ -3,14 +3,68 @@
 }
 
 body {
+  height: 100vh;
   background-color: #f5f6fa;
+  background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
+
+footer {
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e1e1e1;
+  padding: 10px 0;
+}
+
+footer p{
+  margin: 0;
+}
+
+footer a{
+  text-decoration: none;
+  color: #333333;
+  margin: 0;
+}
+
+/* footer {
+  position: fixed;
+  margin-top: 50px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(223, 230, 233, 0.6);
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-weight: 400;
+  font-size: 16px;
+}
+footer p {
+  margin: 0;
+}
+footer a {
+  text-decoration: none;
+  color: #020303;
+  font-weight: 600;
+} */
 
 .app {
   display: flex;
   justify-content: space-evenly;
   background-color: #f5f6fa;
   padding: 20px;
+  background-color: #f5f6fa;
+background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
 }
 
 .app__dropdown {
