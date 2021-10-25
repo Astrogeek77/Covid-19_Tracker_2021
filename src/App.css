@@ -5,8 +5,6 @@
 body {
   height: 100vh;
   background-color: #f5f6fa;
-  background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 footer {
